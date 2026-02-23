@@ -1,6 +1,6 @@
-#Internship_assignment_2
+#Internship_assignment_2\n
 Name:Sanjana B
-Internship:Generative AI Intern
+Internship:Generative AI Intern\n
 
 Concepts Used:
 Variables
