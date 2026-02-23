@@ -1,6 +1,7 @@
-#Internship_assignment_2\n
-Name:Sanjana B
-Internship:Generative AI Intern\n
+Internship Assignment 2
+
+Name: Sanjana B
+Internship: Generative AI Intern
 
 Concepts Used:
 Variables
@@ -20,5 +21,7 @@ Number Pattern Printer
 Sum and Average Calculator
 Prime Number Checker
 Number Guessing Game
+
 Number System Menu (Factorial, Prime, Fibonacci, etc.)
+
 Text Analyzer
