@@ -1,6 +1,6 @@
 #Input
 age = int(input("Enter age: "))
-day = input("Enter day of the week (Monday-Sunday): ").title()
+day = input("Enter day of the week (Monday-Sunday): ")
 tickets = int(input("Enter number of tickets: "))
 
 #Base Price based on Age
@@ -17,10 +17,9 @@ else:
     base_price = 200
     category = "Senior"
 
-#Discount Logic
+#Discount 
 weekend = ["Friday", "Saturday", "Sunday"]
 discount = 0
-
 if day in weekend:
     discount=base_price*0.20
 
@@ -29,8 +28,8 @@ price_after_discount=base_price-discount
 total_amount=price_after_discount*tickets
 
 #Output
-print(f"\nCategory: {category}")
-print(f"Base Price: ₹{base_price}")
-print(f"Discount: ₹{discount}")
-print(f"Price after discount: ₹{price_after_discount}")
-print(f"Total Amount for {tickets} ticket(s): ₹{total_amount}")
+print(f"\nCategory:{category}")
+print(f"Base Price:{base_price}")
+print(f"Discount:{discount}")
+print(f"Price after discount:{price_after_discount}")
+print(f"Total Amount for {tickets} ticket:{total_amount}")

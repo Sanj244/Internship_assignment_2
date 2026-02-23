@@ -8,9 +8,9 @@ else:
     no_spaces = total_character - sentence.count(" ")
 #Results 
     print(f"1.Original sentence:{sentence}")
-    print(f"2.Total(with spaces):{total_character} characters")
-    print(f"3.Total:{no_spaces} characters")
-    print(f"4.Word count:{len(words)} words")
+    print(f"2.Total(with spaces):{total_character}")
+    print(f"3.Total:{no_spaces}")
+    print(f"4.Word count:{len(words)}")
     print(f"5.In UPPERCASE:{sentence.upper()}")
     print(f"6.In lowercase:{sentence.lower()}")
     print(f"7.In Title Case:{sentence.title()}")

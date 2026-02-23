@@ -1,34 +1,34 @@
-#User Input
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+#Input
+n1 = float(input("Enter first number: "))
+n2 = float(input("Enter second number: "))
 
 #Addition
-addition=num1 + num2
-print(f"Addition:{num1}+{num2}={addition}")
+addition=n1+n2
+print(f"Addition:{n1}+{n2}={addition}")
 
 #Subtraction
-subtraction=num1 - num2
-print(f"Subtraction:{num1}-{num2}={subtraction}")
-
+subtraction=n1-n2
+print(f"Subtraction:{n1}-{n2}={subtraction}")
+    
 #Multiplication
-multiplication=num1 * num2
-print(f"Multiplication:{num1}*{num2}={multiplication}")
+multiplication=n1 * n2
+print(f"Multiplication:{n1}*{n2}={multiplication}")
 
 #Division
-if num2!= 0:
-    division = num1 / num2
-    print(f"Division:{num1}/{num2}={division:.2f}")
+if n2!= 0:
+    division = n1 / n2
+    print(f"Division:{n1}/{n2}={division:.2f}")
 else:
     print("Division:Cannot divide by zero")
 
 #Modulus
-if num2!= 0:
-    modulus=num1%num2
-    print(f"Modulus:{num1}%{num2}={modulus}")
+if n2!= 0:
+    modulus=n1%n2
+    print(f"Modulus:{n1}%{n2}={modulus}")
 else:
-    print("Modulus:(Cannot divide by zero")
+    print("Cannot divide by zero")
 
 #Exponentiation
-exponent=num1**num2
-print(f"Exponentiation:{num1}^{num2}={exponent}")
+exponent=n1**n2         
+print(f"Exponentiation:{n1}^{n2}={exponent}")
 

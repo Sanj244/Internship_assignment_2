@@ -1,9 +1,9 @@
+#Input 
 year = int(input("Enter a year: "))
-
-if year % 4 == 0:
-    print(f"{year} is a Leap Year.")
-    print("Reason: It is divisible by 4.")
-
+#leap year logic
+if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+    print(year, "is a Leap Year.")
+    print("Reason: It follows the leap year rule.")
 else:
-    print(f"{year} is NOT a Leap Year.")
-    print("Reason: It is not divisible by 4.")
+    print(year, "is NOT a Leap Year.")
+    print("Reason: It does not follow the leap year rule.")
